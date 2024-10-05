@@ -26,6 +26,8 @@ Currently it is set as 14 but can be changed to get a larger or smaller list of 
 
 Please make sure to update test setup data if the as appropriate if the offset days is changed.
 
+I used Fine Code Coverage (xtn) and the service code are not covered. However since the service only consists of one public and one private method I thought added additional tests for the service would be redundant since the the Controller test gets the data from the service.
+
 ## License
 
 N/A
