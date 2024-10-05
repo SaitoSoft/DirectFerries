@@ -18,9 +18,9 @@ Run Project and enter parameters in Swagger. These are:
 
 Fullname (needs a space to denote fullname)
 
-dob ("yyyy-mm-dd" format)
+Dob ("yyyy-mm-dd" format)
 
-targetDate (this is used as an offset but if left blank a default date is provided to the service layer)
+TargetDate (this is used as an offset but if left blank a default date is provided to the service layer)
 
 ## Contributing
 
