@@ -34,6 +34,8 @@ Please make sure to update test setup data if the as appropriate if the offset d
 
 I used Fine Code Coverage (xtn) and the service code are not covered. However since the service only consists of one public and one private method I thought added additional tests for the service would be redundant since the the Controller test gets the data from the service.
 
+Normally I would include a .gitignore file however since I am just adding code to a non dev/test/uat/sit/prod repo I have omitted this item.
+
 ## License
 
 N/A
