@@ -7,7 +7,9 @@ This is a technical test soloution for a WebAPI. I didn't know if the soloution 
 No install needed just copy files to desired location. There are 3 tests (NUnit and Moq) that cover:
 
 should_return_a_ok_result
+
 should_return_a_bad_request_result_for_no_space_between_fullname_and_a_null_date
+
 should_return_a_user_dto_object_with_values_for_specific_start_date (this is wrapped in a responseDTO object)
 
 ## Usage
