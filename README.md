@@ -15,8 +15,11 @@ should_return_a_user_dto_object_with_values_for_specific_start_date (this is wra
 ## Usage
 
 Run Project and enter parameters in Swagger. These are:
+
 Fullname (needs a space to denote fullname)
+
 dob ("yyyy-mm-dd" format)
+
 targetDate (this is used as an offset but if left blank a default date is provided to the service layer)
 
 ## Contributing
