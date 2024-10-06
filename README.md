@@ -32,7 +32,7 @@ Currently it is set as 14 but can be changed to get a larger or smaller list of 
 
 Please make sure to update test setup data if the as appropriate if the offset days is changed.
 
-I used Fine Code Coverage (xtn) and the service code are not covered. However since the service only consists of one public and one private method I thought added additional tests for the service would be redundant since the the Controller test gets the data from the service.
+I used Fine Code Coverage (xtn see attached documant CodeCoverage.docx for results). I wrapped the extention methods in function properties in the service so i could mock them in the tests for better code coverage.
 
 Normally I would include a .gitignore file however since I am just adding code to a non dev/test/uat/sit/prod repo I have omitted this item.
 
