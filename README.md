@@ -26,9 +26,6 @@ TargetDate (this is used as an offset but if left blank a default date is provid
 
 ## Contributing
 
-Since some of the code depends on a date (usually todays date). In order to get test passing with concrete values I have hard coded a date in the UserControllerTests (line 109 targetdate). 
-This date is passed through to the service and used as an offset in the AgeExtensions calculations.
-
 The offset days can be configured in appsettings for the task "A list that shows the 14 days before the user’s next birthday (days of week (Mon, Tue, Wed etc.)".
 Currently it is set as 14 but can be changed to get a larger or smaller list of days before the next birthday.
 
