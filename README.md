@@ -4,7 +4,7 @@ This is a technical test soloution for a WebAPI. I didn't know if the soloution 
 
 ## Installation
 
-No install needed just copy files to desired location. There are 3 tests (NUnit and Moq) that cover:
+No install needed just copy files to desired location. There are 4 tests (NUnit and Moq) that cover:
 
 controller_action_should_return_a_ok_result
 
